@@ -1,0 +1,16 @@
+img {
+    border-radius: 50%;
+    border: solid white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header,footer{
+    visibility: hidden;
+}
+
+a {
+    text-decoration: none;
+}
