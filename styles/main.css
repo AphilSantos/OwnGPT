@@ -1,16 +1,96 @@
+/**
+ * Styles the image element to have a circular border with a white color.
+ */
+/*img {
+    border-radius: 50%;
+    border: solid white;
+}*/
+
+/**
+ * Removes the default list-style-type for unordered lists.
+ */
+/*ul {
+    list-style-type: none;
+}*/
+
+/**
+ * Hides the header and footer elements.
+ */
+/*header,footer{
+    visibility: hidden;
+}*/
+
+/**
+ * Removes the default text decoration for anchor elements.
+ */
+/*a {
+    text-decoration: none;
+}*/
+
+/**
+ * Styles the image element to have a circular border with a white color.
+ */
 img {
     border-radius: 50%;
     border: solid white;
 }
 
+/**
+ * Removes the default list-style-type for unordered lists.
+ */
 ul {
     list-style-type: none;
 }
 
-header,footer{
+/**
+ * Hides the header and footer elements.
+ */
+header,
+footer {
     visibility: hidden;
 }
 
+/**
+ * Removes the default text decoration for anchor elements.
+ */
 a {
     text-decoration: none;
+}
+
+/**
+ * Styles the contact form.
+ */
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #45a049;
 }

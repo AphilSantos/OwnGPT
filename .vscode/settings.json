@@ -1,0 +1,4 @@
+{
+    "cody.autocomplete.advanced.model": "llama-code-13b",
+    "cody.autocomplete.advanced.provider": "experimental-ollama"
+}

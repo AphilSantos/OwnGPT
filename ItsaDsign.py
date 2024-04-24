@@ -118,3 +118,27 @@ st.write(
     """
 )
 st.write("---")
+
+st.write("#")
+st.subheader("Contact Me")
+
+contact_form = """
+<form action="https://formsubmit.co/aphilvs@gmail.com" method="POST" style="display: flex; flex-direction: column; align-items: center;">
+     <input type="hidden" name="_captcha" value="false">
+     <input type="text" name="name" placeholder="Your name" required style="width: 300px; padding: 5px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
+     <input type="email" name="email" placeholder="Your email" required style="width: 300px; padding: 5px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
+     <textarea name="message" placeholder="Your message here" style="width: 300px; height: 150px; padding: 5px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;"></textarea>
+     <button type="submit" style="padding: 10px 20px; border-radius: 5px; background-color: transparent; color: inherit; border: 1px; border-color: #E7E7E8; cursor: pointer;">Send Message</button>
+</form>
+
+"""
+
+
+st.markdown(contact_form, unsafe_allow_html=True)
+
+
+
+st.write("---")
+st.write("© Aaron Santos | Data Science Portfolio")
+
+
