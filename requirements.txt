@@ -2,3 +2,4 @@ streamlit==1.33.0
 streamlit_option_menu
 ollama
 pytube
+qrcode
